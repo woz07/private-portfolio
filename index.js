@@ -19,7 +19,7 @@ async function load() {
      * @param element   The target element which gets changed
      * @param target    The target output to put into element
      */
-    async function display(element, target) {
+    async function update(element, target) {
         for (let i = 0; i < target.length; i++) {
             element.text(target.substring(0, i + 1));
             await SLEEP(100);
@@ -27,10 +27,10 @@ async function load() {
     }
 
     // Load #greeting
-    await display($("#greeting"), "Hello,");
-    await SLEEP(300);
+    await update($("#greeting"), "Hello,");
+    await SLEEP(200);
     // Load #name
-    await display($("#name"), "I'm Sameer.");
+    await update($("#name"), "I'm Sameer.");
 }
 
 load();

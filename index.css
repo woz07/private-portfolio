@@ -1,14 +1,23 @@
 /*
 635985  <-- lightest (text)
 443C68
-393053
+393053  
 18122B  <-- darkest (background)
 */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #18122B;
+    border-radius: 6px;
+}
 
 body {
     background-color: #18122B;
     color: #635985;
-    font-family: 'Rubik Doodle Shadow';
+    font-family: "Rubik Doodle Shadow";
 }
 
 /*
@@ -35,7 +44,7 @@ Content
 */
 
 #content {
-    margin-top: 40px;
+    margin-top: 60px;
     padding: 60px;
     display: flex;
     flex-direction: column;
@@ -45,7 +54,38 @@ Content
 }
 
 .subheading {
-    font-size: 45px;
+    font-size: 60px;
+}
+
+.box {
+    background-color: black; /* TEMP */
+    width: 65%;
+    height: 60%;
+    margin-bottom: 150px;
+}
+
+.info {
+    font-size: 25px;
+}
+
+.education-list {
+    list-style: none;
+}
+
+#about-me {
+    margin-right: 30%;
+}
+
+#education {
+    margin-left: 30%;
+}
+
+#skills {
+    margin-right: 30%;
+}
+
+#projects {
+    margin-left: 30%;
 }
 
 /*
