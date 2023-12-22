@@ -1,6 +1,6 @@
 /*
 635985  <-- lightest (text)
-443C68
+443C68  <-- blur background
 393053  
 18122B  <-- darkest (background)
 */
@@ -51,6 +51,12 @@ Content
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+
+.blur {
+    position: absolute;
+    box-shadow: 0 0 150px 35px #443C68;
+    z-index: -100;
 }
 
 .subheading {
