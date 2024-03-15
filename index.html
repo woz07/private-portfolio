@@ -4,7 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Ubuntu&display=swap" rel="stylesheet">
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- My CSS -->
     <link rel="stylesheet" href="/css/global.css">
+    <link rel="stylesheet" href="/css/index.css">
 </head>
 <body>
     <!-- Header -->
@@ -21,10 +29,6 @@
 
     <!-- Content -->
     <section id="container">
-        <!-- TODO: Get rid of this and put it in its own CSS file (index.css)-->
-        <!-- Make the 'Hey' part bigger and then the rest a little bit smaller, also put it to the left side of the page and ensure 'hey' gets its own line -->
-        <!-- TODO: Align it so that I'm is underneath Hey, so it looks more neat-->
-
         <!--
             TODO: Write a little bit about myself on the right side of the screen and then add like a button that says 
             'want to know more about me? click here!' something like that, like try to code a <p> tag that says 
@@ -32,13 +36,44 @@
             the button should get bigger when hovered over and possible tilt to the left/right, and then when clicked 
             it should take you to the about page
         -->
-        <h1 style="font-size: 100px; text-align: center; padding-top: 20%;">
-            <strong>Hey,</strong><br>I'm Sameer.
-        </h1>
+        <div id="left-side">
+            <h1>
+                Hey,
+            </h1>
+            <br>
+            <h1>
+                I'm <span>Sameer.</span>
+            </h1>
+        </div>
+        <div id="right-side">
+            <h3>
+                A bit about me; I'm a computer science student at QMUL,
+                I'm also a programmer and I enjoy creating solutions to problems.
+            </h3>
+            <aside id="links">
+                <button><a href="/about.html">Want to find out more about me?</a></button>
+
+                <!-- <h3 id="a-text">Want to find out more about me?</h3>
+                <i id="a-arrow" class="fa-solid fa-arrow-right fa-3x"></i>
+                <button id="a-btn"><a href="/about.html">CLICK HERE</a></button> -->
+                <button><a href="/contacts.html">Want to contact me?</a></button>
+
+                <!-- <h3 id="c-text">Want to contact me?</h3>
+                <i id="c-arrow" class="fa-solid fa-arrow-right fa-3x"></i>
+                <button id="c-btn"><a href="/contacts.html">CLICK HERE</a></button> -->
+            </aside>
+            <!--
+                TODO: continue onto next page
+            -->
+        </div>
     </section>
 
     <!-- Footer -->
     <footer>
+        <div id="socials">
+            <a href="https://www.linkedin.com/in/sameer-muhammad-458291236/" target="_blank"><i class="fa-brands fa-linkedin fa-2x"></i></i></a>
+            <a href="https://github.com/woz07" target="_blank"><i class="fa-brands fa-github fa-2x"></i></a>
+        </div>
         <p>Sameer Muhammad &copy; 2024</p>
     </footer>
 </body>
