@@ -1,0 +1,7 @@
+- Finished index.html
+
+TODO:
+    - Now start on about.html (Might have to design the mouse wheel thing as about page won't be small)
+
+CHECK:
+    - If I need a login page, also make sure to check what exact pages I need
