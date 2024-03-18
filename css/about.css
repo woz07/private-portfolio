@@ -1,6 +1,6 @@
 @import 'global.css';
 
-a {
+/* a {
     text-decoration: none;
     color: var(--tertiary-color);
 }
@@ -11,7 +11,7 @@ h2 {
 
 h3, h4, h5, h6, p {
     font-family: var(--secondary-font);
-}
+} */
 
 #links {
     font-family: var(--tertiary-font);

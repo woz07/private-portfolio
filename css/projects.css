@@ -1,0 +1,26 @@
+@import '/css/global.css';
+
+#links {
+    font-family: var(--tertiary-font);
+    margin-right: auto;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    transition: transform 0.3s ease;
+    background-color: var(--secondary-color);
+    width: 50%;
+    border: 2px solid var(--tertiary-color);
+    border-radius: 35px;
+    margin: 50px;
+}
+
+.card:hover {
+    transform: scale(0.98);
+}
