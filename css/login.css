@@ -1,24 +1,22 @@
-
 #container {
-    padding-top: 60px;
+    padding-top: 120px;
+    padding-bottom: 12%;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-form {
-    width: 50%;
-}
-
 input, textarea, form button, label {
     border-radius: 25px;
-    width: 100%;
     font-family: var(--tertiary-font);
     font-size: 20px;
 }
 
-button:hover {
-    background-color: var(--tertiary-color);
+input[type="submit"] {
+    display: block;
+    margin: 0 auto;
 }
 
+input[type="submit"]:hover {
+    background-color: var(--tertiary-color);
+}

@@ -5,6 +5,8 @@ This is the css page where I write down global css information for my entire
 website.
 */
 
+/* @import url(reset.css); */
+
 ::-webkit-scrollbar {
     width: 12px;
     background-color: var(--primary-color);
