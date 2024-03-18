@@ -18,7 +18,7 @@
 }
 
 #container #left-side h1 span {
-    transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out; /* Transition for both background-color and color */
+    transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
 }
 
 #container #left-side h1 span:hover {

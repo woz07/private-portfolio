@@ -1,0 +1,61 @@
+@import 'global.css';
+
+a {
+    text-decoration: none;
+    color: var(--tertiary-color);
+}
+
+h2 {
+    font-family: var(--primary-font);
+}
+
+h3, h4, h5, h6, p {
+    font-family: var(--secondary-font);
+}
+
+#links {
+    font-family: var(--tertiary-font);
+    margin-right: auto;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    transition: transform 0.3s ease;
+    background-color: var(--secondary-color);
+    width: 50%;
+    border: 2px solid var(--tertiary-color);
+    border-radius: 35px;
+    margin: 50px;
+}
+
+.card:hover {
+    transform: scale(0.98);
+}
+
+#about-me a, #education a {
+    padding: 0;
+}
+
+#education .school-info img {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+    width: 100px;
+    height: 100px;
+    border-radius: 40px;
+}
+
+.school-info {
+    margin: 10px;
+}
+
+.school-info h3 {
+    display: inline;
+    margin: 0;
+}

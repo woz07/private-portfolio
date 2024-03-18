@@ -5,6 +5,25 @@ This is the css page where I write down global css information for my entire
 website.
 */
 
+::-webkit-scrollbar {
+    width: 12px;
+    background-color: var(--primary-color);
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 25px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--secondary-color);
+    border-radius: 25px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background-color: var(--tertiary-color);
+}
+
 :root {
     --primary-color: #331D2C;
     --secondary-color: #3F2E3E;
@@ -24,18 +43,30 @@ website.
 body {
     background-color: var(--primary-color);
     color: var(--quaternary-color);
+    margin-top: 50px;
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+    color: var(--tertiary-color);
+    padding: 5px;
 }
 
 /* Header */
 header {
+    margin: 0;
     position: fixed;
     right: 0px;
-    top: 5px;
+    top: 0;
+    width: 100%;
     height: 30px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-end;
     font-size: 22px;
+    background-color: var(--primary-color);
+    z-index: 999;
 }
 
 header * {
@@ -81,9 +112,9 @@ header li a:hover::after {
 
 /* Footer */
 footer {
-    height: 10%;
-    padding-bottom: 25px;
-    position: fixed;
+    height: 5%;
+    padding-bottom: px;
+    position: relative;
     left: 0;
     right: 0;
     bottom: 0;
@@ -93,16 +124,21 @@ footer {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    bottom: 0;
 }
 
 footer #socials {
     display: flex;
     flex-direction: row;
-    padding-bottom: 10px;
+    padding-bottom: 2px;
 }
 
 footer #socials a {
     text-decoration: none;
     color: inherit;
     padding: 0 5px;
+}
+
+footer #socials a:hover {
+    color: var(--tertiary-color);
 }
