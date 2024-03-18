@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <!-- My CSS -->
     <link rel="stylesheet" href="/css/global.css">
-    <link rel="stylesheet" href="/css/contact.css">
+    <link rel="stylesheet" href="/css/addpost.css">
 </head>
 <body>
     <!-- Header -->
@@ -22,30 +22,27 @@
                 <li><a href="/index.html">Home</a></li>
                 <li><a href="/about.html">About</a></li>
                 <li><a href="/projects.html">Projects</a></li>
-                <li><a href="#" id="active">Contact</a></li>
-                <li><a href="/addpost.html">+</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+                <li><a href="#" id="active">+</a></li>
             </ul>
         </nav>
     </header>
-
-    <!-- Content -->
     <section id="container">
-        <h2>Contact Me</h2>
-        <form action="mailto:muhsameer9@gmail.com" method="post" enctype="text/plain">
+        <h2>Add post</h2>
+        <form method="post" enctype="text/plain">
             <div>
-                <label for="subject">Subject:</label><br>
-                <input type="text" id="subject" name="subject" required>
+                <label for="title">Title:</label><br>
+                <input type="text" id="title" name="title" required>
             </div>
             <br>
             <div>
-                <label for="body">Body:</label><br>
-                <textarea id="body" name="body" rows="10" required></textarea>
+                <label for="content">Content:</label><br>
+                <textarea id="content" name="content" rows="10" required></textarea>
             </div>
             <br>
             <button type="submit">Submit</button>
         </form>
     </section>
-
     <!-- Footer -->
     <footer>
         <div id="socials">
@@ -55,4 +52,3 @@
         <p>Sameer Muhammad &copy; 2024</p>
     </footer>
 </body>
-</html>
