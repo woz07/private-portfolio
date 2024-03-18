@@ -1,0 +1,22 @@
+@import '/css/global.css';
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    width: 50%;
+}
+
+input, textarea, button, label {
+    border-radius: 25px;
+    width: 100%;
+    font-family: var(--tertiary-font);
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: var(--tertiary-color);
+}

@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <!-- My CSS -->
     <link rel="stylesheet" href="/css/global.css">
+    <link rel="stylesheet" href="/css/contact.css">
 </head>
 <body>
     <!-- Header -->
@@ -28,7 +29,19 @@
 
     <!-- Content -->
     <section id="container">
-
+        <form action="mailto:muhsameer9@gmail.com" method="post" enctype="text/plain">
+            <div>
+                <label for="subject">Subject:</label><br>
+                <input type="text" id="subject" name="subject" required>
+            </div>
+            <br>
+            <div>
+                <label for="body">Body:</label><br>
+                <textarea id="body" name="body" rows="10" required></textarea>
+            </div>
+            <br>
+            <button type="submit">Submit</button>
+        </form>
     </section>
 
     <!-- Footer -->
