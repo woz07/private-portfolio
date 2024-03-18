@@ -1,7 +1,7 @@
 
 a {
     padding: 5;
-    z-index: 999;
+    z-index: 900;
 }
 
 #links {
@@ -9,7 +9,8 @@ a {
     margin-right: auto;
     position: sticky;
     top: 0;
-    z-index: 999;
+    margin-top: 10px;
+    z-index: 800;
 }
 
 #content {
