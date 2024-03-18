@@ -51,6 +51,7 @@ a {
     text-decoration: none;
     color: var(--tertiary-color);
     padding: 5px;
+    z-index: 999;
 }
 
 h2 {
