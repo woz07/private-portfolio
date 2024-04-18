@@ -1,0 +1,36 @@
+#content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    position: relative; /* Add position relative to the card */
+    transition: transform 0.3s ease;
+    background-color: var(--secondary-color);
+    width: 50%;
+    border: 2px solid var(--tertiary-color);
+    border-radius: 35px;
+    margin: 50px;
+}
+
+.card:hover {
+    transform: scale(0.98);
+}
+
+.card button {
+    position: absolute; /* Position the button absolutely within the card */
+    left: 50%; /* Align the button to the center horizontally */
+    transform: translateX(-50%); /* Move the button back by half of its own width */
+    bottom: 20px; /* Adjust the vertical position of the button */
+}
+
+button {
+    border-radius: 25px;
+    font-family: var(--tertiary-font);
+    font-size: 20px;
+}
+button:hover {
+    background-color: var(--secondary-color);
+}

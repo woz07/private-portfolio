@@ -22,3 +22,14 @@ button:hover {
     background-color: var(--tertiary-color);
 }
 
+#clear {
+    border-radius: 25px;
+    width: 50%;
+    font-family: var(--tertiary-font);
+    font-size: 20px;
+}
+
+/* FOR addpost.js */
+#title.error, #body.error {
+    background-color: rgb(228, 92, 92);
+}
