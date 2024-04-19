@@ -6,7 +6,7 @@
 }
 
 .card {
-    position: relative; /* Add position relative to the card */
+    position: relative;
     transition: transform 0.3s ease;
     background-color: var(--secondary-color);
     width: 50%;

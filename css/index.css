@@ -39,7 +39,8 @@
     "second";
     gap: 10px;
 }
-/* Since they aren't causing problems there is no need to assign their grid-area */
+
+/* since they aren't causing problems there is no need to assign their grid-area */
 
 button {
     border-radius: 40px;

@@ -1,16 +1,14 @@
 #container {
     padding-top: 120px;
     padding-bottom: 12%;
-    text-align: center; /* Center inline elements horizontally */
+    text-align: center; 
 }
 
-/* Center block elements horizontally */
 input[type="submit"] {
     display: block;
     margin: 0 auto;
 }
 
-/* Additional styles for input, textarea, form button, and label */
 input, textarea, form button, label {
     border-radius: 25px;
     font-family: var(--tertiary-font);
